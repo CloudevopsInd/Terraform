@@ -2,14 +2,14 @@
 Terraform samples using Aws cloud
 
 ##########
-##commands
-terraform init
-terraform validate
-terraform plan
-terraform plan -var-file dev.tfvars
-terraform apply
-terraform apply -var-file dev.tfvars -auto-approve
-terraform destroy
+##commands\
+terraform init\
+terraform validate\
+terraform plan\
+terraform plan -var-file dev.tfvars\
+terraform apply\
+terraform apply -var-file dev.tfvars -auto-approve\
+terraform destroy\
 
 ##########
 
