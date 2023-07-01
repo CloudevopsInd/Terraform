@@ -1,6 +1,18 @@
 # Terraform
 Terraform samples using Aws cloud
 
+##########
+##commands
+terraform init
+terraform validate
+terraform plan
+terraform plan -var-file dev.tfvars
+terraform apply
+terraform apply -var-file dev.tfvars -auto-approve
+terraform destroy
+
+##########
+
 #own-vpc-ec2-provisioner-shell ### is having a vpc with igw attched with public subnet route table and one ec2 provisioner.
 
 
