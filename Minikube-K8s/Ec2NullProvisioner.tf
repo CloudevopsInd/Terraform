@@ -32,7 +32,7 @@ count = length(aws_instance.tf_instance)
         "pwd && ls",
         #"ssh -i \"~/.ssh/docker.pem\" ubuntu@[for i in aws_instance.tf_instance : i.public_ip]",
         "ssh -i \"~/.ssh/id_rsa\" ubuntu@[for i in aws_instance.tf_instance : i.public_ip]",
-        "minikube stop --driver=docker",
+        "minikube start --driver=docker",
         "kubectl get nodes"
       ]
    } 
